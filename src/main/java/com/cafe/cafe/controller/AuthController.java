@@ -18,13 +18,7 @@ public class AuthController {
 
     @Autowired
     private BCryptPasswordEncoder passwordEncoder;
-    
-//    @GetMapping("/test-hash")
-//    public String testHash() {
-//        String raw = "admin@123";
-//        String encoded = passwordEncoder.encode(raw);
-//        return encoded;
-//    }
+
 
 
     @PostMapping("/signup")
