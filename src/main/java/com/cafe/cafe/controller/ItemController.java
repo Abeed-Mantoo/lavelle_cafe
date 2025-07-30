@@ -21,5 +21,10 @@ public class ItemController {
     public List<Item> getAllItems() {
         return itemRepository.findAll();
     }
+    
+    @GetMapping
+    public List<Item> getfewItems() {
+        return itemRepository.findAll();
+    }
 
 }
