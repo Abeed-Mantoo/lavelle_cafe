@@ -23,8 +23,10 @@ public class ItemController {
     }
     
     @GetMapping
-    public List<Item> getfewItems() {
+    public List<Item> getMultipleItems() {
         return itemRepository.findAll();
     }
+    
+
 
 }
