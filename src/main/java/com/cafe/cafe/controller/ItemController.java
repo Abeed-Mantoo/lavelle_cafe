@@ -23,10 +23,11 @@ public class ItemController {
     }
     
     @GetMapping
-    public List<Item> getAlllllItems() {
+    public List<Item> getnewwwItems() {
         return itemRepository.findAll();
     }
     
+
     
 
     
